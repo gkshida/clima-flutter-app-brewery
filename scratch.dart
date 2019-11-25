@@ -16,8 +16,12 @@ void task1() {
 }
 
 void task2() {
-  String result = 'task 2 data';
-  print('Task 2 complete');
+  Duration threeSeconds = Duration(seconds: 3);
+
+  Future.delayed(threeSeconds, () {
+    String result = 'task 2 data';
+    print('Task 2 complete');
+  });
 }
 
 void task3() {
