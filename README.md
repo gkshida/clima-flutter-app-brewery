@@ -16,9 +16,9 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 
 ## What you will learn
 
-- [ ] How to use Dart to perform asynchronous tasks.
-- [ ] Understand async and await.
-- [ ] Learn about Futures and how to work with them.
+- [x] How to use Dart to perform asynchronous tasks.
+- [x] Understand async and await.
+- [x] Learn about Futures and how to work with them.
 - [ ] How to network with the Dart http package.
 - [ ] What APIs are and how to use them to get data from the internet.
 - [ ] What JSONs are and how to parse them using the Dart convert package.
