@@ -25,7 +25,7 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 - [ ] How to pass data forwards and backwards between screens using the Navigator.
 - [ ] How to handle exceptions in Dart using try/catch/throw.
 - [ ] Learn about the lifecycle of Stateful Widgets and how to override them.
-- [ ] How to use the Geolocator package to get live location data for both iOS and Android.
+- [x] How to use the Geolocator package to get live location data for both iOS and Android.
 - [ ] How to use the TextField Widget to take user input.
 
 
