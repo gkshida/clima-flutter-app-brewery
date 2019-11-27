@@ -27,6 +27,7 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 - [x] Learn about the lifecycle of Stateful Widgets and how to override them.
 - [x] How to use the Geolocator package to get live location data for both iOS and Android.
 - [ ] How to use the TextField Widget to take user input.
+- [x] How to use a spinner.
 
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)

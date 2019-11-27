@@ -32,10 +32,12 @@ class _LoadingScreenState extends State<LoadingScreen> {
     NetworkHelper networkHelper = NetworkHelper(
         'https://api.openweathermap.org/data/2.5/weather?lat=$latitude&lon=$longitude&appid=$apiKey');
 
-    var weatherData = networkHelper.getData();
+    var weatherData = await networkHelper.getData();
 
     Navigator.push(context, MaterialPageRoute(builder: (context) {
-      return LocationScreen();
+      return LocationScreen(
+        locationWeather: weatherData,
+      );
     }));
   }
 
@@ -51,7 +53,3 @@ class _LoadingScreenState extends State<LoadingScreen> {
     );
   }
 }
-
-// double temperature = decodedData['main']['temp'];
-// int conditionId = decodedData['weather'][0]['id'];
-// String city = decodedData['name'];
